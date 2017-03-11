@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MdT-qY-TSc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="T4f-hs-8fE">
+            <objects>
+                <notificationController id="Pdu-Go-rQv">
+                    <items>
+                        <label alignment="left" text="Update Available" id="ANw-2X-d60"/>
+                        <separator alignment="left" id="AKK-8U-21K"/>
+                        <label width="131" height="88" alignment="left" text="An update is available for tweakname" textAlignment="center" numberOfLines="4" id="Fth-Bf-Nya"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="ANl-Nu-lKH"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="ANw-2X-d60" id="ukG-ms-M5y"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="-148" y="22"/>
+        </scene>
+        <!--name-->
+        <scene sceneID="Z7Z-5Y-YIB">
+            <objects>
+                <controller title="name" id="MdT-qY-TSc">
+                    <items>
+                        <label alignment="left" text="Manager" id="zuh-8e-flV"/>
+                        <separator alignment="left" id="vj1-6j-SYH"/>
+                        <switch width="1" alignment="left" value="YES" title="Pointless" id="SQG-K0-F2W"/>
+                        <button width="1" height="35" alignment="left" title="Hope you enjoyed the easter egg and pointless buttons" id="apX-NU-scT">
+                            <fontDescription key="font" type="system" pointSize="8"/>
+                        </button>
+                        <paymentButton width="1" alignment="left" id="eXg-Xn-K4n"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="57" y="19"/>
+        </scene>
+    </scenes>
+</document>

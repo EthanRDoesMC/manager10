@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88DF5E0A1E6B77DC00349A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DF5E091E6B77DC00349A5A /* main.m */; };
+		88DF5E0D1E6B77DC00349A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DF5E0C1E6B77DC00349A5A /* AppDelegate.m */; };
+		88DF5E101E6B77DC00349A5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DF5E0F1E6B77DC00349A5A /* ViewController.m */; };
+		88DF5E131E6B77DC00349A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DF5E111E6B77DC00349A5A /* Main.storyboard */; };
+		88DF5E151E6B77DC00349A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DF5E141E6B77DC00349A5A /* Assets.xcassets */; };
+		88DF5E181E6B77DC00349A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88DF5E161E6B77DC00349A5A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88DF5DC51E6B75FB00349A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88DF5DC01E6B75F900349A5A /* m10stickers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88DF5DAC1E6B75F900349A5A;
+			remoteInfo = m10stickers;
+		};
+		88DF5DC71E6B75FB00349A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88DF5DC01E6B75F900349A5A /* m10stickers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88DF5DB01E6B75F900349A5A;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88DF5DC01E6B75F900349A5A /* m10stickers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = m10stickers.xcodeproj; path = m10stickers/m10stickers.xcodeproj; sourceTree = "<group>"; };
+		88DF5E061E6B77DC00349A5A /* aptmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aptmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DF5E091E6B77DC00349A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88DF5E0B1E6B77DC00349A5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88DF5E0C1E6B77DC00349A5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88DF5E0E1E6B77DC00349A5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88DF5E0F1E6B77DC00349A5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88DF5E121E6B77DC00349A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88DF5E141E6B77DC00349A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88DF5E171E6B77DC00349A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88DF5E191E6B77DC00349A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88DF5E031E6B77DC00349A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8821DD531E6A456900C83E0B /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Watch;
+			sourceTree = "<group>";
+		};
+		88DF5DA41E6B75A300349A5A /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				88DF5DC01E6B75F900349A5A /* m10stickers.xcodeproj */,
+			);
+			name = Stickers;
+			sourceTree = "<group>";
+		};
+		88DF5DC11E6B75F900349A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DF5DC61E6B75FB00349A5A /* m10stickers.app */,
+				88DF5DC81E6B75FB00349A5A /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88DF5E071E6B77DC00349A5A /* aptmanager */ = {
+			isa = PBXGroup;
+			children = (
+				88DF5E061E6B77DC00349A5A /* aptmanager.app */,
+				88DF5E0B1E6B77DC00349A5A /* AppDelegate.h */,
+				88DF5E0C1E6B77DC00349A5A /* AppDelegate.m */,
+				88DF5E0E1E6B77DC00349A5A /* ViewController.h */,
+				88DF5E0F1E6B77DC00349A5A /* ViewController.m */,
+				88DF5E111E6B77DC00349A5A /* Main.storyboard */,
+				88DF5E141E6B77DC00349A5A /* Assets.xcassets */,
+				88DF5E161E6B77DC00349A5A /* LaunchScreen.storyboard */,
+				88DF5E191E6B77DC00349A5A /* Info.plist */,
+				88DF5E081E6B77DC00349A5A /* Supporting Files */,
+			);
+			path = aptmanager;
+			sourceTree = "<group>";
+		};
+		88DF5E081E6B77DC00349A5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88DF5E091E6B77DC00349A5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88F4F7B11E6A31CE003E73B6 = {
+			isa = PBXGroup;
+			children = (
+				88DF5DA41E6B75A300349A5A /* Stickers */,
+				8821DD531E6A456900C83E0B /* Watch */,
+				88DF5E071E6B77DC00349A5A /* aptmanager */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88DF5E051E6B77DC00349A5A /* aptmanager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DF5E1A1E6B77DC00349A5A /* Build configuration list for PBXNativeTarget "aptmanager" */;
+			buildPhases = (
+				88DF5E021E6B77DC00349A5A /* Sources */,
+				88DF5E031E6B77DC00349A5A /* Frameworks */,
+				88DF5E041E6B77DC00349A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aptmanager;
+			productName = aptmanager;
+			productReference = 88DF5E061E6B77DC00349A5A /* aptmanager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F4F7B21E6A31CE003E73B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = EthanRDoesMC;
+				TargetAttributes = {
+					88DF5E051E6B77DC00349A5A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H4UW2P49QU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 88F4F7B51E6A31CE003E73B6 /* Build configuration list for PBXProject "aptmanager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88F4F7B11E6A31CE003E73B6;
+			productRefGroup = 88F4F7B11E6A31CE003E73B6;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 88DF5DC11E6B75F900349A5A /* Products */;
+					ProjectRef = 88DF5DC01E6B75F900349A5A /* m10stickers.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				88DF5E051E6B77DC00349A5A /* aptmanager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		88DF5DC61E6B75FB00349A5A /* m10stickers.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = m10stickers.app;
+			remoteRef = 88DF5DC51E6B75FB00349A5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		88DF5DC81E6B75FB00349A5A /* StickerPackExtension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = StickerPackExtension.appex;
+			remoteRef = 88DF5DC71E6B75FB00349A5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88DF5E041E6B77DC00349A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DF5E181E6B77DC00349A5A /* LaunchScreen.storyboard in Resources */,
+				88DF5E151E6B77DC00349A5A /* Assets.xcassets in Resources */,
+				88DF5E131E6B77DC00349A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88DF5E021E6B77DC00349A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DF5E101E6B77DC00349A5A /* ViewController.m in Sources */,
+				88DF5E0D1E6B77DC00349A5A /* AppDelegate.m in Sources */,
+				88DF5E0A1E6B77DC00349A5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88DF5E111E6B77DC00349A5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DF5E121E6B77DC00349A5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88DF5E161E6B77DC00349A5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88DF5E171E6B77DC00349A5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88DF5E1B1E6B77DC00349A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4UW2P49QU;
+				INFOPLIST_FILE = aptmanager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ethanrdoesmc.aptmanager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88DF5E1C1E6B77DC00349A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4UW2P49QU;
+				INFOPLIST_FILE = aptmanager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ethanrdoesmc.aptmanager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88F4F7CF1E6A31CF003E73B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ethanrdoesmc@gmail.com (Y7G7MJF3UT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88F4F7D01E6A31CF003E73B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ethanrdoesmc@gmail.com (Y7G7MJF3UT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88DF5E1A1E6B77DC00349A5A /* Build configuration list for PBXNativeTarget "aptmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DF5E1B1E6B77DC00349A5A /* Debug */,
+				88DF5E1C1E6B77DC00349A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F4F7B51E6A31CE003E73B6 /* Build configuration list for PBXProject "aptmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F4F7CF1E6A31CF003E73B6 /* Debug */,
+				88F4F7D01E6A31CF003E73B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88F4F7B21E6A31CE003E73B6 /* Project object */;
+}

@@ -1,0 +1,9 @@
+Package: io.github.ethanrdoesmc.icons
+Name: Repo Icons
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Installs repository icons.
+Depiction: https://ethanrdoesmc.github.io/repo/depictions/?p=io.github.ethanrdoesmc.icons
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Section: Packaging

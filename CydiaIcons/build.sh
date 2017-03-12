@@ -12,10 +12,11 @@ controlfile="$basename/DEBIAN/control"
 mkdir -p "$basename/DEBIAN/"
 cp control $controlfile
 
-#get icons and paste in cydia
+#get icons and paste in cydia - yes, the 789 is intended. I can make jokes.
 mkdir -p "$basename/Applications/Cydia.app/Sections/"
 cp Manager10.png $basename/Applications/Cydia.app/Sections/Manager10.png
-cp Manager10.png $basename/Applications/Cydia.app/Sections/Manager_Addons.png
+cp Manager_Addons.png $basename/Applications/Cydia.app/Sections/Manager_Addons.png
+cp Manager789_and_Addons.png $basename/Applications/Cydia.app/Sections/Manager789_and_Addons.png
 
 # make managerlist file - make sure to update based on version
 mkdir -p $basename/var/mobile/Downloads/ManagerList

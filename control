@@ -1,0 +1,10 @@
+Package: io.github.ethanrdoesmc.gafndalf
+Name: Gandalf (Systemwide)
+Version: 1337
+Architecture: iphoneos-arm
+Description: There's a lot more than you think that can end your jailbreak.
+Depiction: https://ethanrdoesmc.github.io/repo/depictions/?p=io.github.ethanrdoesmc.gafndalf
+Maintainer: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Author: EthanRDoesMC <ethanrdoesmc@gmail.com>
+Depends: firmware (>=10.0)
+Section: Manager_Addons
